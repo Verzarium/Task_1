@@ -1,4 +1,5 @@
 package Task_1;
+//4. Ввести пароль из командной строки и сравнить его со строкой-образцом.
 import java.util.Scanner;
 public class ex4 {
     public static void main(String[] args) {
@@ -6,7 +7,7 @@ public class ex4 {
         Scanner in = new Scanner(System.in);
         String pass = in.nextLine();
         String passtrue = "qwert";
-        if(pass == passtrue) {
+        if(pass.equals(passtrue)) {
             System.out.println("Вы ввели правильный пароль");
         }
         else {
