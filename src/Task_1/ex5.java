@@ -14,13 +14,13 @@ public class ex5 {
         for (int i = 0; i < size; i++) {
             a[i] = in.nextInt();
         }
-        for (int j = 0; j < size - 1; j++) {
-            System.out.print(a[j] + " + ");
-        }
-        System.out.print(a[size] + " = ");
+        System.out.print(a[0]);
+        for (int j = 1; j < size; j++) System.out.print(" + " + a[j]);
+        System.out.print(" = ");
+        int sum = 0;
         for (int y = 0; y < size; y++) {
-            int sum = 0;
             sum += a[y];
         }
+        System.out.print(sum);
     }
 }
