@@ -9,8 +9,6 @@ package Task_1;
 6.6. «Счастливые» числа.
 6.7. Элементы, которые равны полусумме соседних элементов.*/
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Ex6 {
@@ -19,17 +17,17 @@ public class Ex6 {
         int size = scan.getSize();
         int[] a = scan.getA();
 //6.1. Четные и нечетные числа.
-        //EvenOdd(a);
+        EvenOdd(a);
 //6.2. Наибольшее и наименьшее число.
-        //MaxMin(a);
+        MaxMin(a);
 //6.3. Числа, которые делятся на 3 или на 9.
-        //Divided3or9(a);
+        Divided3or9(a);
 //6.4. Числа, которые делятся на 5 и на 7.
-        //Divided5and7(a);
+        Divided5and7(a);
 //6.5. Все трехзначные числа, в десятичной записи которых нет одинаковых цифр.
-        //DiffDigits();
+        DiffDigits();
 //6.6. «Счастливые» числа.
-        //HappyNumbers();
+        HappyNumbers();
 //6.7. Элементы, которые равны полусумме соседних элементов.
         NumbersHalfSum(a);
     }
