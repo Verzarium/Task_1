@@ -1,7 +1,7 @@
 package Task_1;
 //4. Ввести пароль из командной строки и сравнить его со строкой-образцом.
 import java.util.Scanner;
-public class ex4 {
+public class Ex4 {
     public static void main(String[] args) {
         System.out.print("Введите пароль: ");
         Scanner in = new Scanner(System.in);

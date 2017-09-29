@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ex6 {
+public class Ex6 {
     public static void main(String[] args) {
         Scan scan = new Scan().invoke();
         int size = scan.getSize();

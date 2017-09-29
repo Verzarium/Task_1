@@ -2,7 +2,7 @@ package Task_1;
 //3. Вывести заданное количество случайных чисел с переходом и без перехода на новую строку.
 import java.util.Scanner;
 
-public class ex3 {
+public class Ex3 {
     public static void main(String[] args) {
         System.out.print("Введите количество случайных чисел: ");
         Scanner in = new Scanner(System.in);
